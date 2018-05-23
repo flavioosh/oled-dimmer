@@ -10,16 +10,16 @@ reducing the brightness of the scene.
 This is a simple GNOME extension which:
 
 * Attaches to the brightness level of the GNOME settings daemon.
-* Adds an effect [ClutterBrightnessContrastEffect](https://developer.gnome.org/clutter/stable/ClutterBrightnessContrastEffect.html).
+* Adjusts brightness through xrandr.
 * Keeps them in sync.
 
 ## Installation
 
 ```
-git clone https://github.com/fiji-flo/oled_dimmer.git ~/.local/share/gnome-shell/extensions/oled_dimmer@flomerz.gmail.com
-gnome-shell-extension-tool -e oled_dimmer@flomerz.gmail.com
+git clone https://github.com/flavioosh/oled-dimmer.git ~/.local/share/gnome-shell/extensions/oled-dimmer@flavioosh.com
+gnome-shell-extension-tool -e oled-dimmer@flavioosh.com
 ```
 
 ## Known issues
 
-* Cursor is not affected by dimming.
+* Doesn't work with Wayland
